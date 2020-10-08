@@ -46,6 +46,11 @@ public class CaesarCipher {
 				continue;
 			}
 			
+			if(Character.isDigit(text.charAt(i))){
+				encoded.append(text.charAt(i));
+				continue;
+			}
+			
 			if(idx - shift < 0) {
 				idx = letters.indexOf(text.charAt(i)) - shift;
 				encoded.append(arr[(letters.length()) + idx]);
