@@ -18,7 +18,7 @@ public class CaesarCipher {
 	public static void title() {
 		System.out.println("*---------------------------------*");
 		System.out.println("|                                 |");
-		System.out.println("|          CAESAR CYPHER          |");
+		System.out.println("|          CAESAR CIPHER          |");
 		System.out.println("|                                 |");
 		System.out.println("*---------------------------------*\n");
 	}
